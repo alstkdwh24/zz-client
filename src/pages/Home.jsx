@@ -1,11 +1,15 @@
-import Layout from "../Components/Layout/layout";
-
-const HomePage = () => {
+import Header from "Components/Layout/header/header";
+import Main from "Components/Layout/main/main";
+import MainBanner from "Components/Layout/mainbanner/MainBanner";
+const MainPage = () => {
     return (
-        <Layout>
-
-        </Layout>
+        <div>
+            <Header></Header>
+            <MainBanner></MainBanner>
+            <Main></Main>
+        </div>
+       
     )
 }
 
-export default HomePage
+export default MainPage
